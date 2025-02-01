@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7e0;
+    color: #2e7d32;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4caf50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.menu button {
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+}
+
+.menu button:hover {
+    opacity: 0.8;
+}
+
+/* Colores para cada temporada */
+.temporada-1 { background-color: #FF6F61; } /* Coral */
+.temporada-2 { background-color: #6B5B95; } /* Morado */
+.temporada-3 { background-color: #88B04B; } /* Verde */
+.temporada-4 { background-color: #FFA500; } /* Naranja */
+.temporada-5 { background-color: #92A8D1; } /* Azul claro */
+.temporada-6 { background-color: #955251; } /* Rojo oscuro */
+.temporada-7 { background-color: #B565A7; } /* Rosa */
+.temporada-8 { background-color: #009B77; } /* Verde oscuro */
+.temporada-9 { background-color: #DD4124; } /* Rojo */
+.temporada-10 { background-color: #D65076; } /* Rosa oscuro */
+
+#contenido {
+    padding: 20px;
+    text-align: center;
+}
+
+.pregunta, .conjugacion {
+    margin-bottom: 20px;
+}
+
+.pregunta h3, .conjugacion h3 {
+    color: #2e7d32;
+}
+
+.opciones {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.opciones button {
+    background-color: #a5d6a7;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.opciones button:hover {
+    background-color: #c8e6c9;
+}gba(0, 0, 0, 0.1);
