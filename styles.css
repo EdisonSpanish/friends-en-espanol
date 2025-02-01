@@ -14,37 +14,28 @@ header {
 }
 
 .menu {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+    gap: 10px; /* Espacio entre botones */
     padding: 20px;
+    max-width: 600px; /* Ancho máximo para que no se vea demasiado ancho */
+    margin: 0 auto; /* Centrar el menú */
 }
 
 .menu button {
+    background-color: #66bb6a;
+    color: white;
     border: none;
-    padding: 10px 20px;
-    margin: 5px;
+    padding: 15px;
     cursor: pointer;
     border-radius: 5px;
     font-size: 16px;
-    color: white;
+    text-align: center;
 }
 
 .menu button:hover {
-    opacity: 0.8;
+    background-color: #81c784;
 }
-
-/* Colores para cada temporada */
-.temporada-1 { background-color: #FF6F61; } /* Coral */
-.temporada-2 { background-color: #6B5B95; } /* Morado */
-.temporada-3 { background-color: #88B04B; } /* Verde */
-.temporada-4 { background-color: #FFA500; } /* Naranja */
-.temporada-5 { background-color: #92A8D1; } /* Azul claro */
-.temporada-6 { background-color: #955251; } /* Rojo oscuro */
-.temporada-7 { background-color: #B565A7; } /* Rosa */
-.temporada-8 { background-color: #009B77; } /* Verde oscuro */
-.temporada-9 { background-color: #DD4124; } /* Rojo */
-.temporada-10 { background-color: #D65076; } /* Rosa oscuro */
 
 #contenido {
     padding: 20px;
@@ -75,4 +66,16 @@ header {
 
 .opciones button:hover {
     background-color: #c8e6c9;
-}gba(0, 0, 0, 0.1);
+}
+
+/* Colores para cada temporada */
+.temporada-1 { background-color: #FF6F61 !important; } /* Coral */
+.temporada-2 { background-color: #6B5B95 !important; } /* Morado */
+.temporada-3 { background-color: #88B04B !important; } /* Verde */
+.temporada-4 { background-color: #FFA500 !important; } /* Naranja */
+.temporada-5 { background-color: #92A8D1 !important; } /* Azul claro */
+.temporada-6 { background-color: #955251 !important; } /* Rojo oscuro */
+.temporada-7 { background-color: #B565A7 !important; } /* Rosa */
+.temporada-8 { background-color: #009B77 !important; } /* Verde oscuro */
+.temporada-9 { background-color: #DD4124 !important; } /* Rojo */
+.temporada-10 { background-color: #D65076 !important; } /* Rosa oscuro */
